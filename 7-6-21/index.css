@@ -24,7 +24,6 @@ body {
 }
 .profile {
     width: 8em;
-    /* border: 1px solid black; */
     padding-top: 0.1em;
     text-align: center;
     margin-top: 2em;
@@ -33,9 +32,12 @@ body {
     font-size: 1.5em;
     cursor: pointer;
     font-weight: bold;
-    /* background-color: black; */
-    /* border-radius: 50px; */
     color: white;                                                                                   
+}
+.profile:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition:0.5s;
 }
 
 .page-height {
@@ -59,6 +61,30 @@ body {
     margin-top: 5vh;
     
 }
+.sidebar-texts-container {
+    position: absolute;
+}
+
+.sidebar-texts {
+    color: rgba(92, 33, 33,0);
+    font-size: 2em;
+    cursor: pointer;
+    margin-top: 4.4vh;
+    width: 4em;
+    /* text-align: center; */
+    border-radius:20px;
+    cursor: pointer;
+    padding-left: 2.1em;
+    
+
+}
+.sidebar-texts:hover {
+    color:rgb(255, 255, 255);
+    
+    transform: translateX(80px);
+    transition: 0.2s;
+}
+
 
 .bg-img {
     height: 87.8vh;
@@ -120,9 +146,23 @@ body {
     outline: none;
 }
 
+.btn-explore {
+    margin-top:2em;
+    background-color: red;
+    color: white;
+    font-size:2em;
+    height:2em;
+    width: 10em;
+    border-radius: 2em;
+    outline: none;
+}
 
-
-
+.btn-explore:hover {
+    background-color:rgb(146, 0, 0);
+    text-decoration: underline;
+    transition:0.5s;
+    transform: scale(1.1);
+}
 
 
 
