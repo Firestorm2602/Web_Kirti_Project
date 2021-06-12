@@ -32,11 +32,13 @@ body {
     font-size: 1.5em;
     cursor: pointer;
     font-weight: bold;
-    color: white;                                                                                   
+    color: white; 
+    display: flex;
+    justify-content: space-between;                                                                                  
 }
 .profile:hover {
-    text-decoration: underline;
-    transform: scale(1.1);
+
+    transform: scale(1.2);
     transition:0.5s;
 }
 
