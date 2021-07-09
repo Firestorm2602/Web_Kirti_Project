@@ -17,7 +17,7 @@ This ia a Simple Movie Booking Application Website. Movie Plex is a website to p
 ![Contact_Us](https://github.com/Firestorm2602/Web_Kirti_Project/blob/main/Web-Kirti-SS/Contact_Us.jpg?raw=true)
 
 ## Hosted URL
-----If Hosted----
+https://dazzling-torvalds-e63a8b.netlify.app
 
 ## Features Implemented
 ### Frontend
@@ -25,11 +25,25 @@ This ia a Simple Movie Booking Application Website. Movie Plex is a website to p
 - Homogeneous components and controls
 - Local persistency
 - Local Data Storage
-- Data fetching
+- Data fetching - TMDB API 
+- Data fetching from Hosted Backend 
 - Browser support
+- Session Management
+- Parallax Effect
+- Glassmorphism
+- User can Rate and submit Feedback
 
 ### Backend
-----Backend Features----
+- Privacy with Hashing
+- Token Management
+- Forgot Password Mailing Feature
+- Authorization Verification through Middleware
+- Database Management
+- Updation of seats after every Booking
+- Seperate route for Booking History
+- Storing booked seats through Middleware in Database
+- Direct Mailing to Developers through Contact Us Route
+- Use of Encryption
 
 ## Technologies/Libraries/Packages Used
 - Html
@@ -37,9 +51,14 @@ This ia a Simple Movie Booking Application Website. Movie Plex is a website to p
 - JavaScripr
 - Node.js
 - Npm
+- Postgresql
 
 ## Local Setup
-----Steps to setup the project locally----
+1. Clone the repositries
+2. Pre-requsite Node and Npm
+3. Run Npm install
+4. Change apiUrl to http://localhost:3000/ where-ever hosted url is used
+5. Or else you can continue with hosted url
 
 ## Team Members
 ### Siddhant Salve - 2020IMT-099
